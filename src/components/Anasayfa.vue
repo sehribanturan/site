@@ -28,8 +28,8 @@
 
             <div class="container">
               <div class="carousel-caption">
-                <h1>Kaliteli Ürün.</h1>
-                <p>Ürünlerimiz kaliteli malzemelerden üretilir.</p>
+                <h1>Trend Ürünler</h1>
+                <p>En trend ürünlerimizle stilinizi yeniden keşfedin.</p>
               </div>
             </div>
           </div>
@@ -67,7 +67,10 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1>Hızlı Teslimat</h1>
-                <p>Kargonuz 3 iş günü içerisinde güvenle teslim edilir.</p>
+                <p>
+                  Hızlı teslimat ve kolay iade seçenekleri ile alışveriş keyfini
+                  yaşayın..
+                </p>
               </div>
             </div>
           </div>
@@ -85,8 +88,8 @@
             </svg>
             <div class="container">
               <div class="carousel-caption">
-                <h1>Özenli paketleme</h1>
-                <p>Kargolarınız özenle paketlenir</p>
+                <h1>Zevkinizi yansıtan tasarımlar</h1>
+                <p>Şık aksesuarlarla tarzınızı tamamlayın.</p>
                 <p></p>
               </div>
             </div>
@@ -106,7 +109,10 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1>Müşteri memnuniyeti</h1>
-                <p>Müşterilerimizin memnuniyeti için buradayız.</p>
+                <p>
+                  Müşteri memnuniyeti bizim önceliğimizdir, siz de deneyin farkı
+                  görün.
+                </p>
               </div>
             </div>
           </div>
@@ -125,7 +131,9 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1>Hesaplı Fiyatlar</h1>
-                <p>Ürünlerimiz hesaplı ve kalıtelidir</p>
+                <p>
+                  İndirimli fiyatlarımızı kaçırmayın, şimdi alışveriş zamanı!
+                </p>
               </div>
             </div>
           </div>
@@ -158,7 +166,7 @@
           <div class="col-lg-4">
             <a href="#">
               <h5 class="card-title">Gümüş Kolye Çeşitleri</h5>
-              <div class="card" style="width: 13rem">
+              <div class="card" style="width: 19rem">
                 <img src="./images/kelebek.jpeg" class="card-img-top" />
                 <div class="card-body">
                   <p class="card-text"></p>
@@ -170,10 +178,10 @@
           <div class="col-lg-4">
             <a href="#">
               <h5 class="card-title">Tesbih Türleri</h5>
-              <div class="card" style="width: 13rem">
+              <div class="card" style="width: 19rem">
                 <img src="./images/tespih.jpeg" class="card-img-top" />
                 <div class="card-body">
-                  <p class="card-text">Gümüş Saat,</p>
+                  <p class="card-text"></p>
                 </div>
               </div>
             </a>
@@ -182,10 +190,10 @@
           <div class="col-lg-4">
             <a href="#">
               <h5 class="card-title">İmitasyon Takılar</h5>
-              <div class="card" style="width: 13rem">
+              <div class="card" style="width: 19rem">
                 <img src="./images/imitasyon.jpeg" class="card-img-top" />
                 <div class="card-body">
-                  <p class="card-text">Gümüş Saat,</p>
+                  <p class="card-text"></p>
                 </div>
               </div>
             </a>
@@ -194,10 +202,10 @@
           <div class="col-lg-4">
             <a href="#">
               <h5 class="card-title">Saat Çeşitleri</h5>
-              <div class="card" style="width: 13rem">
+              <div class="card" style="width: 19rem">
                 <img src="./images/saat.jpeg" class="card-img-top" />
                 <div class="card-body">
-                  <p class="card-text">Gümüş Saat,</p>
+                  <p class="card-text"></p>
                 </div>
               </div>
             </a>
@@ -206,10 +214,10 @@
           <div class="col-lg-4">
             <a href="#">
               <h5 class="card-title">Dogal Taş Ürünler</h5>
-              <div class="card" style="width: 13rem">
+              <div class="card" style="width: 19rem">
                 <img src="./images/dgltas.jpeg" class="card-img-top" />
                 <div class="card-body">
-                  <p class="card-text">Kolye,Bilezik</p>
+                  <p class="card-text"></p>
                 </div>
               </div>
             </a>
@@ -218,10 +226,10 @@
           <div class="col-lg-4">
             <a href="#">
               <h5 class="card-title">Hediyelik Eşyalar</h5>
-              <div class="card" style="width: 13rem">
+              <div class="card" style="width: 19rem">
                 <img src="./images/images.jpeg" class="card-img-top" />
                 <div class="card-body">
-                  <p class="card-text">magnet</p>
+                  <p class="card-text"></p>
                 </div>
               </div>
             </a>
@@ -362,8 +370,8 @@
               <p>
                 <strong class="fw700">
                   <i class="icon-pointer text-custom-pink text-center"></i>
-                  Adres </strong
-                ><br />
+                  Adres
+                </strong>
 
                 Pendik/ İstanbul
               </p>
@@ -417,8 +425,7 @@ a:hover {
   text-align: right;
   display: flex;
 }
-.carousel-item {
-}
+
 .inner {
   display: flex;
 }
@@ -439,6 +446,21 @@ a:hover {
 }
 .ease {
   align-items: center;
+}
+.card-img-top {
+  width: 300px;
+  height: 240px;
+}
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  color: black;
+  border: #42b983;
+}
+.card-title {
+  font-size: 27px;
+  margin-left: 30px;
 }
 </style>
   
