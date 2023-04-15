@@ -6,6 +6,7 @@ import RegisterView from '@/views/RegisterView.vue';
 import PayView from '@/views/PayView.vue';
 
 
+
 const routes = [
   {
     path: "/",

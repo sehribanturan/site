@@ -17,7 +17,7 @@
           Search
         </button>
       </form>
-      <router-link to="/register">Kayıt ol</router-link>
+      <router-link to="/register">Üye Ol</router-link>
       <router-link to="/login">Giriş Yap</router-link>
       <router-link to="/pay">
         <div class="menu">
