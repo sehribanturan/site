@@ -103,18 +103,18 @@
       class="card"
       style="width: 18rem"
     >
-      <img :src="product.image" class="card-img-top" alt="Product Image" />
+      <img :src="product.url" class="card-img-top" alt="Product Image" />
       <div class="card-body">
         <h5 class="card-title">{{ product.name }}</h5>
         <p class="card-text">{{ product.description }}</p>
       </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">{{ product.price }}</li>
-        <li class="list-group-item">{{ product.stock }} In Stock</li>
+        <li class="list-group-item">Fiyat : {{ product.price }}</li>
+        <li class="list-group-item">{{ product.stock }} Stokta</li>
       </ul>
       <div class="card-body">
-        <a :href="product.url" class="card-link">View Product</a>
-        <a href="#" class="card-link">Add to Cart</a>
+        <a :href="product.url" class="card-link">Ürünü İncele</a>
+        <a href="http://localhost:8080/pay" class="card-link">Sepete Ekle</a>
       </div>
     </div>
   </div>
@@ -128,18 +128,18 @@ import "firebase/auth";
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBWaGhX4FS2GXMKJv_JvK4oUlVijQxe0D8",
-  authDomain: "produc-c682a.firebaseapp.com",
-  projectId: "produc-c682a",
-  storageBucket: "produc-c682a.appspot.com",
-  messagingSenderId: "1045986546870",
-  appId: "1:1045986546870:web:75df3abf992fb973c84217",
+  apiKey: "AIzaSyCzFMiOtD1SRqS8W-rq_bw5JjnUhiF_Qvs",
+  authDomain: "product-9e59b.firebaseapp.com",
+  projectId: "product-9e59b",
+  storageBucket: "product-9e59b.appspot.com",
+  messagingSenderId: "266566178585",
+  appId: "1:266566178585:web:06ce573859fa01ccea1788",
 };
 
 let app = firebase.initializeApp(firebaseConfig);
 let db = getFirestore(app);
 async function getProducts(db) {
-  const productCollection = collection(db, "produc");
+  const productCollection = collection(db, "product");
   const productSnapshot = await getDocs(productCollection);
   const productList = productSnapshot.docs.map((doc) => doc.data());
   return productList;
