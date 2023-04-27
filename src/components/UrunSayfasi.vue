@@ -84,14 +84,6 @@
               >2500-3000</a
             >
           </li>
-          <li v-for="priceRange in priceRanges" :key="priceRange">
-            <a
-              class="dropdown-item"
-              href="#"
-              @click="selectedPriceRange = priceRange"
-              >{{ priceRange }}</a
-            >
-          </li>
         </ul>
       </a>
     </div>
@@ -203,6 +195,7 @@ export default {
       return filteredProducts;
     },
   },
+  methods: {},
 };
 </script>
 
